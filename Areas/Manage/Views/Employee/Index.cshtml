@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model IEnumerable<Employee>
+<div class="table-responsive">
+ <table class="table">
+   <thead>
+     <tr>
+       <th>Id</th>
+       <th>Image</th>
+       <th>Name</th>
+       <th>Position</th>
+       <th>Bio</th>
+     </tr>
+   </thead>
+   <tbody>
+   @foreach (var item in (Model ?? new List<Employee>()))
+   {
+           <tr>
+             <td>@item.Id</td>
+             <td> <img width="40" src="~/assets/img/@item.ImageUrl" /></td>
+             <td>@item.Name</td>
+             <td>@item.Position?.Name</td>
+             <td>@item.Bio</td>
+             <td><a type="button" class="btn btn-dark" asp-area="Manage" asp-controller="Employee" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
+           <td><a type="button" class="btn btn-success" asp-area="Manage" asp-controller="Employee" asp-action="Update" asp-route-id="@item.Id">Update</a></td>
+           </tr>
+   }
+   </tbody>  
+ </table>
+</div>
