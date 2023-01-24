@@ -517,14 +517,6 @@
       "PackagePath": "staticwebassets\\assets\\forms\\contact.php"
     },
     {
-      "Id": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\1cd1173d-1db1-42b3-8488-b366cf7cd658images.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\1cd1173d-1db1-42b3-8488-b366cf7cd658images.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\28d88d25-63f8-4aaf-a92b-4c33cd7daa8fimages.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\28d88d25-63f8-4aaf-a92b-4c33cd7daa8fimages.jpg"
-    },
-    {
       "Id": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\about-bg.png",
       "PackagePath": "staticwebassets\\assets\\img\\about-bg.png"
     },
@@ -599,6 +591,10 @@
     {
       "Id": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\blog\\comments-6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\c507c744-2fa3-47b8-ae13-af4e91308258RTX6P9YW-e1670865740466-1024x637.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\c507c744-2fa3-47b8-ae13-af4e91308258RTX6P9YW-e1670865740466-1024x637.jpg"
     },
     {
       "Id": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\clients\\client-1.png",

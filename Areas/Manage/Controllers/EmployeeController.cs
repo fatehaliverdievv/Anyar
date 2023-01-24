@@ -29,6 +29,16 @@ namespace Anyar.Areas.Manage.Controllers
             ViewBag.Positions=new SelectList(_context.Positions,nameof(Position.Id),nameof(Position.Name));
             return View();
         }
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) { return BadRequest(); }
+            Employee employee = await _context.Employees.FirstOrDefaultAsync(p => p.Id == id);
+            if (employee == null) { return NotFound(); }
+            _context.Employees.Remove(employee);
+            employee.ImageUrl.DeleteFile(_env.WebRootPath, "assets/img");
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
         [HttpPost]
         public async Task<IActionResult> Create(EmployeeCreateVM employeeVM)
         {
@@ -61,7 +71,7 @@ namespace Anyar.Areas.Manage.Controllers
         public async Task<IActionResult> Update(int? id)
         {
             if(id== null) { return BadRequest(); }
-            var employee = await _context.Employees.FirstOrDefaultAsync(p=>p.Id == id);  
+            Employee employee = await _context.Employees.FirstOrDefaultAsync(p=>p.Id == id);  
             if(employee == null) { return NotFound(); }
             EmployeeUpdateVM employeeVM= new EmployeeUpdateVM
             {
@@ -107,7 +117,10 @@ namespace Anyar.Areas.Manage.Controllers
             existedemployee.TwitterLink = employeeVM.TwitterLink;
             existedemployee.InstagramLink = employeeVM.InstagramLink;
             existedemployee.LinkEdinLink = employeeVM.LinkEdinLink;
-            existedemployee.ImageUrl = employeeVM.Image.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img"));
+            if (employeeVM.Image != null)
+            {
+                existedemployee.ImageUrl = employeeVM.Image.SaveFile(Path.Combine(_env.WebRootPath, "assets", "img"));
+            }
             ViewBag.Positions = new SelectList(_context.Positions, nameof(Position.Id), nameof(Position.Name));
             _context.SaveChanges();
             return RedirectToAction("Index");

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7bg6n7QxDswe1GgOp/rrvUPCsPpl5T7siM1MO85CJ6E=",
+  "Hash": "8q6GDuo9lJHP4Bk/LswXuzZCOI6zyNM69RQ/iscsrNM=",
   "Source": "Anyar",
   "BasePath": "_content/Anyar",
   "Mode": "Default",
@@ -2227,40 +2227,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\forms\\Readme.txt"
     },
     {
-      "Identity": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\1cd1173d-1db1-42b3-8488-b366cf7cd658images.jpg",
-      "SourceId": "Anyar",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\",
-      "BasePath": "_content/Anyar",
-      "RelativePath": "assets/img/1cd1173d-1db1-42b3-8488-b366cf7cd658images.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\1cd1173d-1db1-42b3-8488-b366cf7cd658images.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\28d88d25-63f8-4aaf-a92b-4c33cd7daa8fimages.jpg",
-      "SourceId": "Anyar",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\",
-      "BasePath": "_content/Anyar",
-      "RelativePath": "assets/img/28d88d25-63f8-4aaf-a92b-4c33cd7daa8fimages.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\28d88d25-63f8-4aaf-a92b-4c33cd7daa8fimages.jpg"
-    },
-    {
       "Identity": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\about-bg.png",
       "SourceId": "Anyar",
       "SourceType": "Discovered",
@@ -2582,6 +2548,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\c507c744-2fa3-47b8-ae13-af4e91308258RTX6P9YW-e1670865740466-1024x637.jpg",
+      "SourceId": "Anyar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\",
+      "BasePath": "_content/Anyar",
+      "RelativePath": "assets/img/c507c744-2fa3-47b8-ae13-af4e91308258RTX6P9YW-e1670865740466-1024x637.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\c507c744-2fa3-47b8-ae13-af4e91308258RTX6P9YW-e1670865740466-1024x637.jpg"
     },
     {
       "Identity": "C:\\Users\\ca.r215.05\\source\\repos\\Anyar\\wwwroot\\assets\\img\\clients\\client-1.png",
